@@ -1,0 +1,40 @@
+{% load static %} <!-- qualquer templete que for carregar arquivos static tem ter isso antes-->
+<!DOCTYPE html>   
+<html lang="pt-br">
+<head>  
+    <meta charset="utf-8">
+    <title>Django1_udemy - Index</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+
+</head>
+<body>
+    <center>
+    <h1>Index</h1>
+    <img src="{% static "images/Django.jpg" %}"/>
+    <h2>{{curso}}</h2>
+    <p>{{outro}}</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preco</th>
+            </tr>
+        </thead>
+    <tbody>
+    {% for produto in produtos %}
+           
+            <tr>
+              <td><a href="{% url 'produto' produto.id %}">{{produto.nome}}</a></td>
+              <td>{{produto.preco}}</td>
+            </tr>
+
+    {% endfor %}
+    </tbody>
+    </table>
+
+    <button onclick ="teste();"> Clique aqui</button>
+    </center>
+    <script type="text/JavaScript" src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
