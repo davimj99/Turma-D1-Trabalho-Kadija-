@@ -11,7 +11,7 @@ def index(request):
     context = {
         'curso': 'Programação Web com Django Framework',
         'outro': 'Django é massa',
-        'produtos': produtos
+        'produtos': produtos,
     }
 
     return render(request , 'index.html', context)
