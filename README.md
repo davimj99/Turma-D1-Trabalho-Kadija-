@@ -146,13 +146,6 @@ projeto/
 - [ ] Relatórios de vendas
 - [ ] Integração com sistemas de pagamento
 
-## 📝 Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (git checkout -b feature/nova-funcionalidade)
-3. Commit suas mudanças (git commit -am 'Adiciona nova funcionalidade')
-4. Push para a branch (git push origin feature/nova-funcionalidade)
-5. Abra um Pull Request
 
 ## 📄 Licença
 
@@ -160,9 +153,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 📞 Contato
 
-- *Desenvolvedor*: Seu Nome
-- *Email*: seu.email@exemplo.com
-- *LinkedIn*: [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
-- *GitHub*: [@seu-usuario](https://github.com/seu-usuario)
+- *Desenvolvedor*: David Luiz Souza Nascimento // Mikhael Sousa de Siqueira
+- *Email*: davisouza.pro@hotmail.com // mikhaelsik@gmail.com
+- *LinkedIn*: (https://www.linkedin.com/in/davisouza99/) (https://www.linkedin.com/in/mikhaelsiqueira/)
+- *GitHub*: (https://github.com/davimj99)
 
----
