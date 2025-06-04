@@ -13,8 +13,13 @@ Este sistema foi criado para facilitar o gerenciamento de um catálogo de produt
 - *SQLite* - Banco de dados leve e eficiente
 - *HTML/CSS* - Interface do usuário
 - *Django Admin* - Painel administrativo automático
+- *JavaScrpit - Funcionalides de alerta 
 
 ## ✨ Funcionalidades
+
+## Funções do JavaScript 
+- No meu projeto,utilizei JavaScript para melhorar a experiência do usuário em uma loja online.
+- Implementei um botão "conferir valor", ao ser clicado, imprime na tela as funções de preço
 
 ### Para Administradores
 - ✅ Adicionar novos produtos ao catálogo
