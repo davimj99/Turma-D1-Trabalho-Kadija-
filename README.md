@@ -8,12 +8,12 @@ Este sistema foi criado para facilitar o gerenciamento de um catálogo de produt
 
 ## 🚀 Tecnologias Utilizadas
 
-- *Python 3.x* - Linguagem de programação principal
+- *Python - Linguagem de programação principal
 - *Django* - Framework web completo e robusto
 - *SQLite* - Banco de dados leve e eficiente
 - *HTML/CSS* - Interface do usuário
 - *Django Admin* - Painel administrativo automático
-- *JavaScrpit - Funcionalides de alerta 
+- *JavaScrpit* - Funcionalides de alerta 
 
 ## ✨ Funcionalidades
 
@@ -65,11 +65,6 @@ Produto
 
 ### Passo a Passo
 
-1. *Clone o repositório*
-bash
-git clone https://github.com/seu-usuario/sistema-produtos-eletronicos.git
-cd sistema-produtos-eletronicos
-
 
 2. *Crie um ambiente virtual*
 bash
@@ -92,7 +87,7 @@ python manage.py migrate
 
 5. *Crie um superusuário*
 bash
-python manage.py createsuperuser
+python manage.py createsuperuser (para admin DJANGO)
 
 
 6. *Execute o servidor*
@@ -101,8 +96,8 @@ python manage.py runserver
 
 
 7. *Acesse a aplicação*
-- Aplicação principal: http://127.0.0.1:8000/
-- Painel administrativo: http://127.0.0.1:8000/admin/
+- Aplicação principal: http://http://localhost:8000/
+- Painel administrativo: http://http://localhost:8000/admin
 
 ## 📁 Estrutura do Projeto
 
@@ -134,7 +129,7 @@ projeto/
 - *Escalabilidade*: Fácil migração para bancos mais robustos (PostgreSQL, MySQL)
 - *Comunidade Ativa*: Grande quantidade de documentação e suporte
 
-### Benefícios do SQLite
+### Benefícios do SQLite com a interface DB BROWSER
 
 - *Simplicidade*: Configuração zero, perfeito para desenvolvimento
 - *Portabilidade*: Banco em arquivo único, fácil de backup
@@ -152,13 +147,9 @@ projeto/
 - [ ] Integração com sistemas de pagamento
 
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ## 📞 Contato
 
-- *Desenvolvedor*: David Luiz Souza Nascimento // Mikhael Sousa de Siqueira
+- *Desenvolvedores*: David Luiz Souza Nascimento // Mikhael Sousa de Siqueira
 - *Email*: davisouza.pro@hotmail.com // mikhaelsik@gmail.com
 - *LinkedIn*: (https://www.linkedin.com/in/davisouza99/) (https://www.linkedin.com/in/mikhaelsiqueira/)
 - *GitHub*: (https://github.com/davimj99)
